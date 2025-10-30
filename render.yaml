@@ -2,7 +2,6 @@
 services:
   - type: web
     name: seungTest
-    env: nixpacks
     plan: free
     # 백엔드가 루트라면 주석 유지, 하위 폴더면 rootDir: backend 처럼 지정
     # rootDir: .
